@@ -1,10 +1,12 @@
 import React from "react";
-import "./style.css";
-import ReactLogo from "../Assets/Logo/react.svg";
-import NodejsLogo from "../Assets/Logo/nodejs.svg";
-import ReduxLogo from "../Assets/Logo/redux.svg";
-import AngularLogo from "../Assets/Logo/angular.svg";
-import reactNativeLogo from "../Assets/Logo/react-native.svg";
+import "./skill.css";
+import ReactLogo from "../..//Assets/Logo/react.svg";
+import NodejsLogo from "../../Assets/Logo/nodejs.svg";
+import ReduxLogo from "../../Assets/Logo/redux.svg";
+import AngularLogo from "../../Assets/Logo/angular.svg";
+import sequelizeLogo from "../../Assets/Logo/sequelize.svg";
+import mysqlLogo from "../../Assets/Logo/mysql.svg";
+import reactNativeLogo from "../../Assets/Logo/react-native.svg";
 function Skill() {
   const skills = [
     {
@@ -32,10 +34,20 @@ function Skill() {
       imagesrc: AngularLogo,
       link: `https://angular.io/`,
     },
+    {
+      name: "MySQL",
+      imagesrc: mysqlLogo,
+      link: `https://www.mysql.com/`,
+    },
+    {
+      name: "Sequelize",
+      imagesrc: sequelizeLogo,
+      link: `https://sequelize.org/`,
+    },
   ];
   return (
     <>
-      <div className="title">Technologies I Know:</div>
+      <div className="skillTitle">Technologies I Know:</div>
       <div className="imageContainer">
         {skills.map(({ name, imagesrc, link }) => (
           <div key={name} className="cardContainer">

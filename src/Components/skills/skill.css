@@ -30,6 +30,12 @@
 .skillTitle {
   font-size: 25px;
   font-weight: bold;
-  margin-left: 58px;
+  margin-left: 25px;
   margin-bottom: 15px;
+}
+
+.skillBox {
+  background-color: #0e406a;
+  color: #fff;
+  height: auto;
 }

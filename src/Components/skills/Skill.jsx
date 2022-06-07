@@ -46,7 +46,7 @@ function Skill() {
     },
   ];
   return (
-    <>
+    <div className="skillBox">
       <div className="skillTitle">Technologies I Know:</div>
       <div className="imageContainer">
         {skills.map(({ name, imagesrc, link }) => (
@@ -58,13 +58,19 @@ function Skill() {
                 <div></div>
               )}
             </div>
-            <a className="name" href={link} target="_blank" rel="noreferrer">
+            <a
+              className="name"
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              title={`Open ${name} website in new tab.`}
+            >
               {name}
             </a>
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

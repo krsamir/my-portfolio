@@ -1,0 +1,51 @@
+.projects {
+  height: auto;
+  padding: 10px;
+  margin: 20px;
+}
+.projectOutBox {
+  /* margin: 15px; */
+}
+.projectCardContainer {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+
+.projectName {
+  text-decoration: underline;
+}
+.projectLink {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toasts {
+  background-color: #ebebeb;
+  padding: 0px 15px;
+  border-radius: 25px;
+  margin: 0 5px 10px 0;
+}
+
+.links {
+  color: #000;
+  text-decoration: none;
+}
+
+.projectURL {
+  line-height: 1em;
+  color: #0d6efd !important;
+  text-decoration: underline !important;
+  font-size: 12px;
+}
+
+.pointer {
+  cursor: pointer;
+}

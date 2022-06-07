@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <div>
-        <Skill />
         <Project />
+        <Skill />
       </div>
     </div>
   );
